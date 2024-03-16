@@ -3,6 +3,7 @@ $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 $AdminRoutes = [
     '/' => 'controllers/homepage.php',
+    '/download_tasks' => 'controllers/download_tasks.php',
     '/register' => 'controllers/register.php',
     '/users' => 'controllers/users.php',
     '/admin' => 'controllers/admin_dashboard.php',
